@@ -37,4 +37,11 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     /* TODO: Add AutoUssd dependency */
+
+    // This section allows the Android Lifecycle ViewModel (Kotlin) from AutoUssd
+    // and Android Lifecycle ViewModel (Java) in this project to play nicely with
+    // each other
+    def lifecycle_version = "2.5.1"
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
 }

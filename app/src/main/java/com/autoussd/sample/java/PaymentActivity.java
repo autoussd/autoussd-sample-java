@@ -8,6 +8,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class PaymentActivity extends AppCompatActivity {
+    private static final String TAG = "PaymentActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
