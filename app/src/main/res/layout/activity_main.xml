@@ -12,4 +12,5 @@
         android:layout_gravity="center"
         android:onClick="startPayment"
         android:text="@string/initialize_payment" />
+
 </FrameLayout>

@@ -15,11 +15,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startPayment(View v) {
-//        startActivity(
-//            new Intent(
-//                this,
-//                PaymentActivity.
-//            )
-//        );
+        startActivity(
+                new Intent(
+                        this,
+                        PaymentActivity.class
+                )
+        );
     }
 }
