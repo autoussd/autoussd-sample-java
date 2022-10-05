@@ -4,6 +4,15 @@ plugins {
     id 'com.android.library' version '7.2.1' apply false
 }
 
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+
+        /* TODO: Add AutoUssd Maven repository */
+    }
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
