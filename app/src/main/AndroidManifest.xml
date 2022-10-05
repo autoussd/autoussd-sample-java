@@ -27,6 +27,9 @@
         </activity>
 
         <!-- TODO: Add AutoUssd app id meta-data tag -->
+        <meta-data
+            android:name="com.autoussd.APP_ID"
+            android:value="60a53eb10000000000000000" />
     </application>
 
 </manifest>
