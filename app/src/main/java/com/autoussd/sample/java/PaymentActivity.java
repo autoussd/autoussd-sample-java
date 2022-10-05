@@ -90,7 +90,7 @@ public class PaymentActivity extends AppCompatActivity {
         variables.put("reference", reference);
 
         AutoUssd.Companion.getInstance().executeSession(
-                "629e05e1751c102d57c53c0d",
+                "60a53f240000000000000000",
                 variables,
                 null,
                 null
