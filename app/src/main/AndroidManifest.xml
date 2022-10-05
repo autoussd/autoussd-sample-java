@@ -25,6 +25,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- TODO: Add AutoUssd app id meta-data tag -->
     </application>
 
 </manifest>
